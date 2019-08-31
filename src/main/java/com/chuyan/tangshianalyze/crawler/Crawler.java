@@ -144,7 +144,7 @@ public class Crawler {
                             Page subPage = iterator.next ();
                             Crawler.this.docQueue.add ( subPage );
                           // System.out.println (subPage);
-                            iterator.remove ();//???为什么要remove--多线程
+                            iterator.remove ();//remove--多线程
                         }
                     }
                 }catch(IOException e){

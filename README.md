@@ -12,9 +12,9 @@
 + 对爬取的信息进行解析、清洗
 + 诗人创作数量、创作用词的可视化
 ##项目效果
-! [poetry](../images/poetryCount.png)
+[poetry](../images/poetryCount.png)
 
-! [word](../images/word.png)
+ [word](../images/word.png)
 ##项目测试
 + 输入正确url进入页面，点击按钮，图表可以成功显示
 + 通过数据库查询检查爬取的数据，无乱码；并对诗文进行抽查，检查数据正确性
