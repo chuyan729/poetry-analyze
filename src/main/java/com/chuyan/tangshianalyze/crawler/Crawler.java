@@ -104,7 +104,7 @@ public class Crawler {
 //                parse ();
 //            }
 //        } );
-//
+
 //        this.executorService.submit ( new Runnable () {
 //            @Override
 //            public void run() {
@@ -127,6 +127,7 @@ public class Crawler {
                 continue;
             }
             this.executorService.submit ( ()->{
+                System.out.println (Thread.currentThread ().getName ());
                 try{
                     //采集
                     HtmlPage htmlPage = Crawler.this.webClient.getPage ( page.getUrl () );
